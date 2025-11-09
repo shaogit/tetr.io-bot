@@ -6,10 +6,10 @@
 
 ```bash
 # 复制插件到 AstrBot 插件目录
-cp -r astrbot-plugin-tetrio /path/to/AstrBot/data/plugins/
+cp -r tetr.io-bot /path/to/AstrBot/data/plugins/
 
 # 安装依赖
-cd /path/to/AstrBot/data/plugins/astrbot-plugin-tetrio
+cd /path/to/AstrBot/data/plugins/tetr.io-bot
 pip install -r requirements.txt
 
 # 重启 AstrBot

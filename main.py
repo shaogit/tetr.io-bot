@@ -47,7 +47,7 @@ except ImportError:
 from src.api import TETRIOAPIClient
 from src.cache import CacheManager
 from src.render import ImageRenderer
-from src.utils import I18n, validate_username, validate_mode, normalize_country_code
+from src.utils import I18n, validate_username, validate_mode
 
 
 @register(
@@ -324,7 +324,7 @@ class TETRIOPlugin(Star):
             for i, user in enumerate(results[:10], 1):
                 username = user.get('username', 'Unknown')
                 xp = user.get('xp', 0)
-                country = normalize_country_code(user.get('country', ''))
+                country = user.get('country', '')
                 
                 result_text += f"{i}. {username}"
                 if country:
