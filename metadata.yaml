@@ -1,0 +1,8 @@
+name: astrbot_plugin_tetrio
+display_name: TETR.IO 数据查询
+version: 1.0.0
+author: AstrBot Community
+description: |
+  TETR.IO 官方数据查询插件，支持用户信息、排行榜、游戏记录等多种查询功能。
+  提供美观的图像卡片展示，完美还原 ch.tetr.io 网站风格。
+repo: https://github.com/yourusername/astrbot-plugin-tetrio
