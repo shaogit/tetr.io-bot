@@ -1,0 +1,35 @@
+api:
+  base_url: "https://ch.tetr.io/api"
+  timeout: 10
+  retry_times: 3
+  user_agent: "AstrBot-TETRIO-Plugin/1.0"
+
+cache:
+  enabled: true
+  user_info_ttl: 300        # 5分钟
+  summary_ttl: 300          # 5分钟
+  leaderboard_ttl: 600      # 10分钟
+  server_stats_ttl: 60      # 1分钟
+  max_memory_mb: 100
+
+render:
+  image_format: "png"       # png/webp
+  image_quality: 85
+  default_width: 800
+  enable_cache: true
+  font_path: "assets/fonts"
+  icon_path: "assets/icons"
+
+features:
+  enable_trend: true        # 启用趋势图功能
+  enable_compare: true      # 启用对比功能
+  enable_achievements: true # 启用成就功能
+  default_leaderboard_limit: 10
+  max_leaderboard_limit: 25
+
+display:
+  show_avatar: true
+  show_banner: true
+  show_badges: true
+  show_connections: true
+  language: "zh_CN"         # 显示语言

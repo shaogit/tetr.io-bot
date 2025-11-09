@@ -1,0 +1,45 @@
+资源许可证信息
+==================
+
+本目录包含的资源文件许可证信息：
+
+【字体资源】
+-----------
+
+1. Noto Sans SC (思源黑体)
+   - 来源: Google Fonts / Adobe
+   - 仓库: https://github.com/googlefonts/noto-cjk
+   - 许可证: SIL Open Font License 1.1
+   - 说明: 可自由使用、修改和分发
+
+2. Roboto Mono
+   - 来源: Google Fonts
+   - 仓库: https://github.com/googlefonts/RobotoMono
+   - 许可证: Apache License 2.0
+   - 说明: 可自由使用、修改和分发
+
+3. Inter
+   - 来源: Rasmus Andersson
+   - 仓库: https://github.com/rsms/inter
+   - 许可证: SIL Open Font License 1.1
+   - 说明: 可自由使用、修改和分发
+
+【背景素材】
+-----------
+
+所有背景素材均为程序自动生成，不受版权限制。
+可作为本项目的一部分自由使用、修改和分发。
+
+生成方式：
+- 使用 Python PIL/Pillow 库程序化生成
+- 几何图案、纹理效果、光效等均为算法生成
+- 无第三方版权问题
+
+【使用说明】
+-----------
+
+1. 所有资源均符合开源许可，可用于商业和非商业用途
+2. 建议在使用时保留此许可证文件
+3. 如需更多信息，请访问各资源的原始仓库
+
+最后更新: 2024

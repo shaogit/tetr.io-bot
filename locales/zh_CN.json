@@ -1,0 +1,49 @@
+{
+  "command": {
+    "user": {
+      "not_found": "未找到用户 {username}",
+      "success": "成功查询用户 {username}",
+      "error": "查询用户时发生错误: {error}"
+    },
+    "leaderboard": {
+      "title": "{mode} 排行榜 - 前 {limit} 名",
+      "invalid_mode": "不支持的游戏模式: {mode}",
+      "error": "查询排行榜时发生错误: {error}"
+    },
+    "stats": {
+      "title": "TETR.IO 服务器统计",
+      "error": "查询服务器统计时发生错误: {error}"
+    },
+    "search": {
+      "no_results": "未找到匹配 '{query}' 的用户",
+      "results": "找到 {count} 个匹配的用户",
+      "error": "搜索用户时发生错误: {error}"
+    }
+  },
+  "mode": {
+    "league": "TETRA LEAGUE",
+    "40l": "40 LINES",
+    "blitz": "BLITZ",
+    "qp": "QUICK PLAY",
+    "zen": "ZEN"
+  },
+  "stat": {
+    "xp": "经验值",
+    "gametime": "游戏时长",
+    "gamesplayed": "在线游戏",
+    "gameswon": "胜场",
+    "tr": "Tetra Rating",
+    "apm": "APM",
+    "pps": "PPS",
+    "vs": "VS",
+    "rank": "段位",
+    "global_rank": "全球排名",
+    "local_rank": "本地排名"
+  },
+  "error": {
+    "api_error": "API 请求失败",
+    "network_error": "网络连接错误",
+    "parse_error": "数据解析失败",
+    "render_error": "图像生成失败"
+  }
+}
